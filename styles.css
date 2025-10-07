@@ -2,7 +2,7 @@
   /* variables */
   --cg-cyan: rgb(120, 220, 231);
   --cg-orange: rgb(236, 191, 113);
-  --cg-beige: rgb(235, 235, 221);
+  --cg-beige: rgb(238, 233, 219);
   --cg-white: rgb(255, 255, 255);
 }
 
@@ -84,7 +84,38 @@ main {
 }
 
 /*CSS for Portfolio*/
-
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--cg-orange);
+  font-family: Geneva, Tahoma, sans-serif;
+}
+.portfolio h1,
+.portfolio h3,
+.portfolio p,
+.portfolio ul {
+  margin: 0;
+  padding: 0;
+}
+.portfolio h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.portfolio ul {
+  list-style: none;
+}
+.project-description {
+  text-align: center;
+  max-width: 650px;
+}
 /*CSS for resume*/
 
 .resume {
