@@ -82,6 +82,20 @@ main {
   color: var(--cg-orange);
   text-indent: 20px;
 }
+/*CSS for Blog*/
+.blog {
+  width: 60%;
+  margin-top: 20px;
+  background-color: var(--cg-white);
+  padding: 20px, 40px, 20px, 40px;
+  color: var(--cg-orange);
+  text-indent: 10px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+.blog h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /*CSS for Portfolio*/
 .portfolio {
