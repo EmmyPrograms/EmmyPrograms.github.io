@@ -1,7 +1,7 @@
 :root {
   /* variables */
   --cg-cyan: rgb(120, 220, 231);
-  --cg-orange: rgb(255, 164, 7);
+  --cg-orange: rgb(236, 191, 113);
   --cg-beige: rgb(235, 235, 221);
   --cg-white: rgb(255, 255, 255);
 }
@@ -58,7 +58,7 @@ main {
 }
 
 .navbar a {
-  color: var(--cg-beige);
+  color: var(--cg-white);
   font-weight: bold;
   margin: 0 12px;
   text-decoration: none;
@@ -67,6 +67,34 @@ main {
 
 .navbar a:hover {
   color: var(--cg-orange);
+}
+
+/*CSS for resume*/
+
+.resume {
+  width: 60%;
+  margin-top: 20px;
+  background-color: var(--cg-white);
+  padding: 20px, 40px, 20px, 40px;
+  color: var(--cg-orange);
+  text-indent: 10px;
+}
+
+.resume h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resume h3 {
+  display: flex;
+  justify-content: left;
+  font-family: Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+.resume li {
+  padding: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
 }
 
 /* CSS for page footer */
