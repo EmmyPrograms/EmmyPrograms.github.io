@@ -10,10 +10,6 @@ html {
   height: 100%;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   background-color: var(--cg-beige);
   position: relative;
@@ -67,6 +63,10 @@ main {
   margin: 0 12px;
   text-decoration: none;
   letter-spacing: 2px;
+}
+
+.navbar a:hover {
+  color: var(--cg-orange);
 }
 
 /* CSS for page footer */
