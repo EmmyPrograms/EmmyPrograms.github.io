@@ -49,6 +49,7 @@ main {
   /* border: solid red; */
 }
 
+/*CSS for Nav*/
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -68,6 +69,21 @@ main {
 .navbar a:hover {
   color: var(--cg-orange);
 }
+
+/*CSS for index (home) */
+
+.about-text {
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: var(--cg-white);
+  padding: 400px, 20px, 20px, 40px;
+  font-family: Geneva, Tahoma, sans-serif;
+  color: var(--cg-orange);
+  text-indent: 20px;
+}
+
+/*CSS for Portfolio*/
 
 /*CSS for resume*/
 
